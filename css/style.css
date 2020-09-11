@@ -24,11 +24,6 @@
   letter-spacing: 2PX;
   text-align: center;
 }
-.pointer{
-  color: white;
-  font-size: 55px;
-  padding-top: 6%;
-}
 .main-card{
   width: 90%;
   display: flex;
@@ -149,9 +144,6 @@
   .heading{
     font-size: 50px;
   }
-  .pointer{
-    font-size: 45px;
-  }
   .main-card{
     top: 28%;
     flex-wrap: wrap;
@@ -165,9 +157,6 @@
  
   .heading{
     font-size: 44px;
-  }
-  .pointer{
-    font-size: 40px;
   }
   .main-card{
     width: 100%;
