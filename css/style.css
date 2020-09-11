@@ -14,10 +14,6 @@
   justify-content: center;
 }
 .heading{
-  /* position: absolute;
-  left: 50%;
-  transform: translateX(-50%); 
-  top: 7.5%;*/
   text-align: center;
   width: fit-content;
   padding-top: 7.5%;
@@ -31,7 +27,7 @@
 .pointer{
   color: white;
   font-size: 55px;
-  padding-top: 6.5%;
+  padding-top: 6%;
 }
 .main-card{
   width: 90%;
@@ -185,11 +181,15 @@
   }
   .main-card{
     position: relative;
-    padding: 180px 0px 50px 0px;
+    padding: 130px 0px 50px 0px;
   }
 }
 @media(max-width:850px){
 .heading{
   width: 70%;
+}
+.main-card{
+  position: relative;
+  padding: 50px 0px 50px 0px;
 }
 }

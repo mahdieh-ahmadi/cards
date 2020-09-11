@@ -13,7 +13,7 @@ if(i === text.length -1 ){
     }, 300);
 
 }else if( i < text.length) {
-     document.querySelector('.heading').innerHTML += text.charAt(i);
+     document.querySelector('.heading').innerHTML += text[i];
      i++;
      setTimeout(typing,150);
 }   
