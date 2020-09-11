@@ -8,16 +8,30 @@
   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(../image/img31.jpg)  center no-repeat;
   background-size: cover ;
 }
+.header_container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 .heading{
-  position: absolute;
+  /* position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  top: 7.5%;
+  transform: translateX(-50%); 
+  top: 7.5%;*/
+  text-align: center;
+  width: fit-content;
+  padding-top: 7.5%;
+  margin: 0;
   background: transparent;
   color: white;
   font-size: 62px;
   letter-spacing: 2PX;
   text-align: center;
+}
+.pointer{
+  color: white;
+  font-size: 55px;
+  padding-top: 6.5%;
 }
 .main-card{
   width: 90%;
@@ -138,8 +152,9 @@
 @media(max-width:1200px){
   .heading{
     font-size: 50px;
-    top: 6.5%;
-    
+  }
+  .pointer{
+    font-size: 45px;
   }
   .main-card{
     top: 28%;
@@ -154,8 +169,9 @@
  
   .heading{
     font-size: 44px;
-    top: 6%;
-   
+  }
+  .pointer{
+    font-size: 40px;
   }
   .main-card{
     width: 100%;
