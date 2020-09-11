@@ -1,0 +1,179 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  width: 100%;
+  height: 100vh ;
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url(../image/img31.jpg)  center no-repeat;
+  background-size: cover ;
+}
+.heading{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 7.5%;
+  background: transparent;
+  color: white;
+  font-size: 62px;
+  letter-spacing: 2PX;
+  text-align: center;
+}
+.main-card{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translateX(-50%);
+ 
+}
+.card{
+  width: 320px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.image-titr{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.profile{
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -55px;
+  border: 5px solid white;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.8);
+}
+.card h1{
+  color: rgba(65, 50, 48, 0.74);
+  font-size: 22px;
+  margin-top: 20px;
+}
+.job{
+  color: rgba(117, 108, 97, 0.61);
+  margin-top: 10px;
+  font-size: 18px;
+}
+.propertis{
+  width: 90%;
+  padding: 10px 0px 20px 0px;
+  color: rgb(37, 33, 33);
+  text-align: center;
+  font-size: 12px;
+}
+.card button{
+  width: 100px;
+  padding: 4px;
+  background-color: rgb(231, 80, 54);
+  border:none;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+.card:hover button{
+  animation: btn 2s 0.7s;
+}
+
+
+@keyframes btn{
+  0%{transform: scale(1) rotateZ(0deg)}
+  5%{transform: scale(1.2) rotateZ(5deg)}
+  10%{transform: scale(1.2) rotateZ(-5deg)}
+  15%{transform: scale(1.2) rotateZ(5deg)}
+  20%{transform: scale(1.2) rotateZ(-5deg)}
+  25%{transform: scale(1.2) rotateZ(5deg)}
+  30%{transform: scale(1.2) rotateZ(-5deg)}
+  35%{transform: scale(1.2) rotateZ(5deg)}
+  40%{transform: scale(1.2) rotateZ(-5deg)}
+  45%{transform: scale(1.2) rotateZ(5deg)}
+  50%{transform: scale(1.2) rotateZ(-5deg)}
+  55%{transform: scale(1.2) rotateZ(5deg)}
+  60%{transform: scale(1.2) rotateZ(-5deg)}
+  65%{transform: scale(1.2) rotateZ(5deg)}
+  70%{transform: scale(1.2) rotateZ(-5deg)}
+  75%{transform: scale(1.2) rotateZ(5deg)}
+  80%{transform: scale(1.2) rotateZ(-5deg)}
+  85%{transform: scale(1.2) rotateZ(5deg)}
+  90%{transform: scale(1.2) rotateZ(-5deg)}
+  95%{transform: scale(1.2) rotateZ(5deg)}
+  100%{transform: scale(1) rotateZ(0deg)}
+  
+}
+.card ul{
+  display: flex;
+  justify-content: space-between ;
+  list-style: none;
+  border-top: 1px solid black;
+  padding-top: 20px;
+  margin-top: 10px;
+  width: 150px;
+  padding-bottom: 18px;
+}
+.fa-facebook-square{
+  color: rgb(7, 52, 92);
+}
+.fa-telegram{
+  color: rgb(45, 150, 241);
+}
+.fa-instagram{
+  color: rgb(199, 14, 14);
+}
+.fa-skype{
+  color: rgb(36, 74, 107);
+}
+
+@media(max-width:1200px){
+  .heading{
+    font-size: 50px;
+    top: 6.5%;
+    
+  }
+  .main-card{
+    top: 28%;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 300px;
+   margin:20px 20px
+  }
+}
+@media(max-width:999px){
+ 
+  .heading{
+    font-size: 44px;
+    top: 6%;
+   
+  }
+  .main-card{
+    width: 100%;
+    top: 24%;
+    
+  }
+}
+@media(max-width:1148px){
+  .container{
+    height: 100%;
+  }
+  .main-card{
+    position: relative;
+    padding: 180px 0px 50px 0px;
+  }
+}
+@media(max-width:850px){
+.heading{
+  width: 70%;
+}
+}
